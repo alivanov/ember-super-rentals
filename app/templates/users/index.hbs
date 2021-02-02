@@ -1,0 +1,9 @@
+{{page-title "Index"}}
+
+<h2>Users list</h2>
+<ul>
+    {{#each this.model as |user|}}
+    <li> <LinkTo @route="users.user" @model={{user}}> click me !</LinkTo>  </li>
+    {{/each}}
+</ul>
+{{outlet}}
