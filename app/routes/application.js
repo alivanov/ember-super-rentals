@@ -5,7 +5,7 @@ export default class ApplicationRoute extends Route {
         return new Promise((res, rej) => {
             setTimeout(() => {
                 res()
-            }, 1000)
+            }, 3000)
         })
     }
 }
